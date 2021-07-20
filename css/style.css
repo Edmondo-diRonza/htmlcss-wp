@@ -12,7 +12,7 @@ body {
     margin: auto;
 }
 
-header{
+.top-header{
     background-image: url(../img/sfondo-header.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,9 +22,7 @@ header{
     position: relative;
     
 }
-.top-header {
-    
-}
+
 .logo-container {
     width: 100%;
     color: white;
@@ -36,18 +34,39 @@ header{
     text-transform: uppercase;
 
 }
-
-header h1 {
+.top-header h1 {
     font-size: 60px;
     border: 8px solid white;
     display: inline-block;
     padding: 0px 15px;
     margin-bottom: 14px;
 }
-header h2 {
+.top-header h2 {
     font-size: 32px;
     font-style: ;
     
+}
+.main-menu{
+    background-color: #504741;
+    width: 100%;
+    text-align: center;
+}
+.main-menu li {
+    display: inline-block;
+    color: white;
+    background-color: #504741;
+    line-height: 48px;
+    padding: 0px 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.main-menu a:link {
+    color: white;
+    text-decoration: none;
+}
+.main-menu a:visited {
+    color: white;
 }
 
 main {
