@@ -6,6 +6,7 @@
 }
 body {
     background-image: url(../img/sfondo.png);
+    color: rgba(0, 0, 0, 0.6);
 }
 #container {
     width: 1000px;
@@ -97,7 +98,9 @@ main::after {
     background-color: white;
     width: 25%;
     border-radius: 10px;
-    padding: 10px;
+}
+.col-sx {
+    padding: 20px;
 }
 
 .dx-menu-title .rss {
@@ -108,6 +111,7 @@ main::after {
     display: inline;
     color: rgba(0, 0, 0, .6);
     margin: 3px;
+    line-height: 60px;
 }
 
 .dx-menu li {
@@ -128,15 +132,19 @@ main::after {
     color: green;
 }
 
-
 .col-cent{
     width: 46%;
-    height: 500px;
     margin: 0% 2%;
+    line-height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+}
+.col-cent p {
+    line-height: 50px;
 }
 
 .col-dx {
-    height: 480px;
     background-color: transparent;
 }
 footer{
@@ -147,8 +155,10 @@ footer{
 
 .widget {
     width: 100%;
-    height: 46%;
     margin-bottom: 8%;
     background-color: white;
     border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    line-height: 2em;
 }
